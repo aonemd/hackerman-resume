@@ -14,8 +14,9 @@ My Markdown résumé template
   * `texlive`. [Install on Ubuntu](https://www.howtoinstall.me/ubuntu/18-04/texlive/)
   * [`wkhtmltopdf`](https://wkhtmltopdf.org/downloads.html) for generating HTML
 - Add changes to `resume.md` in [`Markdown`](https://www.markdownguide.org/getting-started/)
-- Run `make` to build the PDF file
-- Run `make run` to open the PDF file in your default PDF reader
+- Run `./install build` to build the PDF version
+- Run `./install build-html` to build the HTML version
+- Run `./install open` to open the PDF version in your default PDF reader
 
 ## LICENSE
 

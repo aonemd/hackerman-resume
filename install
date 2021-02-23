@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+SOURCE=resume.md
+TARGET=resume
+CSS=resume.css
+
+case "$1" in
+  build)
+    pandoc -t html5 --css "$CSS" -o "$TARGET".pdf "$SOURCE"
+    ;;
+  build-html)
+    pandoc --standalone --css "$CSS" --from markdown --to html -o "$TARGET".html "$SOURCE"
+    ;;
+  open)
+    xdg-open "$TARGET".pdf &
+    ;;
+  *)
+    echo "Usage: $0 {build|build-html|open}"
+    exit 2
+esac
+
+exit 0
