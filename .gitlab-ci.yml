@@ -4,7 +4,7 @@ services:
 build:
   stage: deploy
   script:
-  - ./install docker
+  - ./build.sh build-docker
   artifacts:
     paths:
     - resume.pdf

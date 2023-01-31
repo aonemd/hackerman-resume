@@ -13,4 +13,4 @@ WORKDIR $SRC
 Add . $SRC
 
 RUN pandoc --version
-RUN ./install build
+RUN ./build.sh build

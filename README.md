@@ -17,8 +17,8 @@
 ### via Docker
 - Make sure you have `docker` installed on your machine
 - Add changes to `resume.md` in [`Markdown`](https://www.markdownguide.org/getting-started/)
-- Run `./install docker` to build the resume as a PDF file
-- Run `./install open` to open the PDF version in your default PDF reader
+- Run `./build.sh build-docker` to build the resume as a PDF file
+- Run `./build.sh open` to open the PDF version in your default PDF reader
 
 ### Natively
 - You need to have the following installed on your system
@@ -26,9 +26,9 @@
   * `texlive`. [Install on Ubuntu](https://www.howtoinstall.me/ubuntu/18-04/texlive/)
   * [`wkhtmltopdf`](https://wkhtmltopdf.org/downloads.html) for generating HTML
 - Add changes to `resume.md` in [`Markdown`](https://www.markdownguide.org/getting-started/)
-- Run `./install build` to build the PDF version
-- Run `./install build-html` to build the HTML version
-- Run `./install open` to open the PDF version in your default PDF reader
+- Run `./build.sh build` to build the PDF version
+- Run `./build.sh build-html` to build the HTML version
+- Run `./build.sh open` to open the PDF version in your default PDF reader
 
 ## LICENSE
 
