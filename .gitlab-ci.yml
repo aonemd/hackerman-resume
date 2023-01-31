@@ -1,0 +1,12 @@
+image: docker:latest
+services:
+  - "docker:dind"
+build:
+  stage: deploy
+  script:
+  - ./install docker
+  artifacts:
+    paths:
+    - resume.pdf
+  only:
+  - master
