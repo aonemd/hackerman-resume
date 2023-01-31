@@ -1,11 +1,16 @@
-Markdown Résumé Template
----
+<div align="center">
+  <h1>
+    Hackerman Résumé Template
+  </h1>
 
-My Markdown résumé template
+  Your average Hackerman Markdown résumé (French, classy!) template
+
+  ![HACKERMAN](https://user-images.githubusercontent.com/16504838/215842768-31130992-24b0-4de5-ac36-347ad9172ae7.png)
+</div>
 
 ## Demo
 
-[https://aonemd.github.io/markdown-resume-template/](https://aonemd.github.io/markdown-resume-template/)
+[https://aonemd.github.io/hackerman-resume/](https://aonemd.github.io/hackerman-resume)
 
 ## Installation
 
@@ -27,4 +32,4 @@ My Markdown résumé template
 
 ## LICENSE
 
-See [LICENSE](https://github.com/aonemd/markdown-resume-template/blob/master/LICENSE).
+See [LICENSE](https://github.com/aonemd/hackerman-resume/blob/master/LICENSE).
